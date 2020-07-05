@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // hexagram schema
 
-const hexagramSchema = new mongoose.mongo.Schema({
+const hexagramSchema = new mongoose.Schema({
     number: Number,
     lower_triagram: String,
     upper_triagram: String,

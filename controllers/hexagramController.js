@@ -1,4 +1,4 @@
-const Hexagram = require('./../models/HexagramModel');
+const Hexagram = require('./../models/HexagramModel');
 
 // Route handlers
 

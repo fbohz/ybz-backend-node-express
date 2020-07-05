@@ -27,7 +27,7 @@ app.use((req, res, next) => {
 });
 
 // MOUNT ROUTES
-app.use(baseUrlReading, readingRouter);
+// app.use(baseUrlReading, readingRouter);
 app.use(baseUrlHexagram, hexagramRouter);
 
 module.exports = app
