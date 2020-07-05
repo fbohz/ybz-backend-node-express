@@ -3,8 +3,10 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 const readingRouter = require('./routes/readingRoutes')
+const hexagramRouter = require('./routes/hexagramRoutes')
 
 const baseUrlReading = '/api/v1/readings';
+const baseUrlHexagram= '/api/v1/hexagrams';
 
 // MIDDLEWARES
 if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
@@ -26,5 +28,6 @@ app.use((req, res, next) => {
 
 // MOUNT ROUTES
 app.use(baseUrlReading, readingRouter);
+app.use(baseUrlHexagram, hexagramRouter);
 
 module.exports = app
