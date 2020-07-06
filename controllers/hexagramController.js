@@ -21,8 +21,9 @@ exports.getAllHexagrams = async (req, res) => {
 };
 
 exports.getHexagram = async (req, res) => {
+ console.log(req.params.id)
   try {
-    const hexagram = await Tour.findById(req.params.id);
+    const hexagram = await Hexagram.findById(req.params.id);
     res.status(200).json({
       status: 'success',
       hexagram
