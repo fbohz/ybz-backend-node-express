@@ -1,4 +1,4 @@
-> *Note*: This is the backend updated code from the legacy [YBZ initial version](https://github.com/fbohz/yijing-ball-z-legacy). See also the [Rails API](https://github.com/fbohz/yijing-ball-z_backend/)implementation of the backend.
+> *Note*: This is the backend updated code from the legacy [YBZ initial version](https://github.com/fbohz/yijing-ball-z-legacy). See also the [Rails API](https://github.com/fbohz/yijing-ball-z_backend/) implementation of the backend.
 
 # [Yijing Ball-Z]()
 Dragon Ball Z takes on the Yijing! Done with Vanilla JS frontend and the backed is a Rails API + GraphQL for users querying.
