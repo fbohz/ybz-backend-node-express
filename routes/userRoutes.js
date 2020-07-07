@@ -5,7 +5,7 @@ const {
     getAllUsers,
     getUser,
     createUser
-} = require('../controllers/hexagramController')
+} = require('../controllers/userController')
 
 router.route('/')
     .get(getAllUsers)
