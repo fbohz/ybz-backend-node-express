@@ -21,7 +21,7 @@ exports.getAllHexagrams = async (req, res) => {
 };
 
 exports.getHexagram = async (req, res) => {
- console.log(req.params.id)
+  console.log(req.params.id)
   try {
     const hexagram = await Hexagram.findById(req.params.id);
     res.status(200).json({
@@ -36,19 +36,19 @@ exports.getHexagram = async (req, res) => {
   }
 }
 
-exports.createHexagram= async (req, res) => {
-    try {
-      const newHexagram = await Hexagram.create(req.body);
-      res.status(201).json({
-        status: 'success',
-        data: {
-          tour: newHexagram,
-        },
-      });
-    } catch (error) {
-      res.status(400).json({
-        status: 'fail',
-        message: error.message,
-      });
-    }
-  };
+exports.createHexagram = async (req, res) => {
+  try {
+    const newHexagram = await Hexagram.create(req.body);
+    res.status(201).json({
+      status: 'success',
+      data: {
+        hexagram: newHexagram,
+      },
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: 'fail',
+      message: error.message,
+    });
+  }
+};
