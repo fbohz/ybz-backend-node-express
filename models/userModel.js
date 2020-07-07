@@ -14,16 +14,10 @@ const userSchema = new mongoose.Schema({
         default: Date.now()
     },
     provider: String,
-
+    remember_token: String,
+    client_mutation_id: String,
 })
 
-/*
-    t.string "name"
-    t.string "email"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.string "provider"
-    t.string "uid"
-    t.string "remember_token"
-    t.string "client_mutation_id"
-*/
+const User = mongoose.model('User', hexagramSchema)
+
+module.exports = User
