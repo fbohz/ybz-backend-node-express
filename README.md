@@ -5,7 +5,7 @@
 
 Checkout the Vanilla JavaScript [frontend repository](https://github.com/fbohz/yijing-ball-z_frontend).
 
-Dragon Ball Z takes on the Yijing! Done with Vanilla JS frontend and the backed is a Rails API + GraphQL for users querying.
+Dragon Ball Z takes on the Yijing! Done with Vanilla JS frontend and the backed is Node.js/Express API server with MongoDB database.
 
 ![yi1](https://user-images.githubusercontent.com/15071636/71361331-6e488500-2571-11ea-830f-cfa903bec36e.GIF)
 ![yi2](https://user-images.githubusercontent.com/15071636/71360544-0729d100-256f-11ea-8b53-36aa55161f4c.gif)
