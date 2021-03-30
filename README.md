@@ -3,8 +3,6 @@
 
 # [Yijing Ball-Z]()
 
-Checkout the Vanilla JavaScript [frontend repository](https://github.com/fbohz/yijing-ball-z_frontend).
-
 Dragon Ball Z takes on the Yijing! Done with Vanilla JS frontend and the backed is Node.js/Express API server with MongoDB database.
 
 ![yi1](https://user-images.githubusercontent.com/15071636/71361331-6e488500-2571-11ea-830f-cfa903bec36e.GIF)
@@ -19,7 +17,7 @@ Note: FB Sign-In possible frontend by Facebook SDK for JavaScript.
 
 To use this app:
 Backend: just clone, run `npm i` and `npm start:dev`.
-Frontend: Run a simple HTTPS server on terminal `python simple-https-server.py`.
+Frontend: Run a simple HTTPS server on terminal `python simple-https-server.py`. Please ask permission if contributing to frontend.
 
 Questions? Email me at misguidedapps@gmail.com.
 
